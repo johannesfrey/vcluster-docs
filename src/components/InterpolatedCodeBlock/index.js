@@ -7,7 +7,7 @@ import { usePageVariables } from '../PageVariables/PageVariablesContext';
 // Latest versions - fallback if not in versioned docs context
 const LATEST_VERSIONS = {
   platform: '4.11.2',
-  vcluster: '0.36.1',
+  vcluster: '0.36.2',
 };
 
 const varInputId = (instanceId, key) => `var-${instanceId}-${key.toLowerCase().replace(/[^a-z0-9]/g, '-')}`;
